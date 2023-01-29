@@ -1,5 +1,4 @@
-
-//id, firstName, lastName, city,age, creditCardNumber
+//API'den gelen dataymış gibi düşün
 export const users = [
     {
         id: 1,
@@ -29,7 +28,7 @@ export const users = [
         type: "customer"
     },
     {
-        id: 3,
+        id: 3,   //employee bunlar
         firstName: "Cansu",
         lastName: "Değirmen",
         city: "İstanbul",
@@ -39,7 +38,7 @@ export const users = [
     },
     {
         id: 4,
-        firstName: "Mücahit",
+        firstName: "Mucahit",
         lastName: "Kaya",
         city: "Bolu",
         age: 23,
@@ -53,8 +52,6 @@ export const users = [
         city: "Diyarbakır",
         age: 20,
         salary: 15000,
-        type: "employee"
+        type: "employee" //typeı yanlış gelmiş
     }
 ]
-
-//23.05 Dersteyiz
